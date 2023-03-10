@@ -1,7 +1,6 @@
 import { Link, Route, Routes } from 'react-router-dom';
-import Learn from './Learn';
 
-function Contact(props) {
+export default function Contact(props) {
   return (
     <div>
       <h1>Contact Page</h1>
@@ -25,10 +24,8 @@ function Contact(props) {
         Learn Less
       </Link>
       <Routes>
-        <Route path="learn" element={<Learn />} />
+        <Route path="learn" element={<><h3>Hi</h3><p>This is a sub route thingy</p></>} />
       </Routes>
     </div>
   );
 }
-
-export default Contact;
