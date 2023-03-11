@@ -9,14 +9,14 @@ export default function Project(props) {
   // }
   
   // getImg(image.replace("/images/",""));
-  
+  console.log(props.pid);
   return (
-    <div className={"mb-4 " + (hero ? "col-sm-12 col-md-8 col-lg-6" : "col-sm-6 col-md-4 col-lg-3")} onClick={() => window.open(link || gh, "_blank")}>
+    <div className={"mb-4 " + (hero ? "col-sm-12 col-md-8 col-lg-6" : "col-sm-6 col-md-4 col-lg-3")} onClick={() => document.getElementById(props.pid).click()}>
       <div className="card h-100">
         <div className="img-wrapper">
           <div className="buttons">
-            {link && <a href={link} target="_blank" className={`btn btn-outline-light rounded-pill ${gh ? "mb-3" : ""}`} rel="noreferrer">Deployed Site</a>}
-            {gh && <a href={gh} target="_blank" className={`btn btn-outline-light rounded-pill ${link ? "mt-3" : ""}`} rel="noreferrer">GitHub Repo</a>}
+            {link && <a id={link ? props.pid : ""} href={link} target="_blank" className={`btn btn-outline-light rounded-pill ${gh ? "mb-3" : ""}`} rel="noreferrer">Deployed Site</a>}
+            {gh && <a id={gh ? props.pid : ""} href={gh} target="_blank" className={`btn btn-outline-light rounded-pill ${link ? "mt-3" : ""}`} rel="noreferrer">GitHub Repo</a>}
           </div>
           {/* <img src={img} className="card-img-top" loading="lazy" alt={description || "project screenshot"} /> */}
           <img src={process.env.PUBLIC_URL + image} className="card-img-top" loading="lazy" alt={description || "project screenshot"} />

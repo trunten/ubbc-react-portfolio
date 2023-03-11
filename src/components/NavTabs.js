@@ -1,7 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
 export default function NavTabs() {
-
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark {/*fixed-top*/}">
       <NavLink to="/" end className="navbar-brand">Portfolio</NavLink>

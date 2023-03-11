@@ -6,7 +6,7 @@ export default function Projects() {
     <div className="container-fluid mb-5" id="projects">
       <h2 className="display-4 text-center my-4">Projects</h2>
       <div className="row">
-        {projects.map((project, index) => <Project key={index} project={project}/>)}
+        {projects.map((project, index) => <Project key={index} pid={"p" + index} project={project}/>)}
       </div>
     </div>
   );
