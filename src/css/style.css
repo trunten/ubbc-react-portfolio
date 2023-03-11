@@ -100,10 +100,8 @@ html {
 /* Contact section */
 /* --------------- */
 #contact li {
+  position: relative;
   display: inline-block;
-}
-
-#contact li {
   margin-top: 10px;
   width: 75px;
   text-align: center;

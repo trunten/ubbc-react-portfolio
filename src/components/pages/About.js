@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function About() {
   return (
-    <div id="about" className="jumbotron jumbotron-fluid bg-white">
+    <div id="about" className="jumbotron jumbotron-fluid bg-white mb-0">
       <div className="container">
         <img src={process.env.PUBLIC_URL + "/images/profile.png"} height="200px" alt="My profile avatar" />
         <h2 className="h1">Jonathan Davis</h2>
