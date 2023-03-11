@@ -3,6 +3,7 @@
         "title": "City Crime Data",
         "description": "This is a test description i will add the proper one later",
         "link" : "https://trunten.github.io/ubbc-crime-data/",
+        "gh": "https://github.com/trunten/ubbc-crime-data",
         "image": "/images/crime-data.jpg",
         "languages": "html / css / javascript",
         "hero": "true"
@@ -11,6 +12,7 @@
         "title": "Weather Dashboard",
         "description": "This is a another test description but it's really long this time. I will add the proper one later",
         "link" : "https://trunten.github.io/ubbc-weather-dashboard/",
+        "gh": "https://github.com/trunten/ubbc-weather-dashboard",
         "image": "/images/weather.jpg",
         "languages": "html / css / javascript"
     },
@@ -18,6 +20,7 @@
         "title": "Password Generator",
         "description": "",
         "link" : "https://trunten.github.io/fm-password-generator/",
+        "gh": "https://github.com/trunten/fm-password-generator",
         "image": "/images/password.png",
         "languages": "html / css / javascript"
     },
@@ -25,6 +28,7 @@
         "title": "Rock Paper Scissors",
         "description": "",
         "link" : "https://trunten.github.io/fm-rock-paper-scissors/",
+        "gh": "https://github.com/trunten/fm-rock-paper-scissors",
         "image": "/images/rps.png",
         "languages": "html / css / javascript"
     },
@@ -32,6 +36,7 @@
         "title": "Pong Game",
         "description": "",
         "link" : "https://trunten.github.io/js-canvas-pong/",
+        "gh": "https://github.com/trunten/js-canvas-pong",
         "image": "/images/pong.jpg",
         "languages": "html / javascript"
     },
@@ -39,6 +44,7 @@
         "title": "Work Day Scheduler",
         "description": "",
         "link" : "https://trunten.github.io/ubbc-work-day-scheduler/",
+        "gh": "https://github.com/trunten/ubbc-work-day-scheduler",
         "image": "/images/scheduler.png",
         "languages": "html / css / jquery"
     },
@@ -46,6 +52,7 @@
         "title": "Word Guessing Game",
         "description": "Old school hangman",
         "link" : "https://trunten.github.io/word-guessing-game/",
+        "gh": "https://github.com/trunten/word-guessing-game",
         "image": "/images/hangman.jpg",
         "languages": "html / css / javascript"
     },
@@ -53,6 +60,7 @@
         "title": "CSS Cheatsheet",
         "description": "",
         "link" : "https://trunten.github.io/css-cheatsheet/",
+        "gh": "https://github.com/trunten/css-cheatsheet",
         "image": "/images/css.jpg",
         "languages": "html / css / javascript"
     },
@@ -60,6 +68,7 @@
         "title": "Time Tracker",
         "description": "",
         "link" : "https://trunten.github.io/fm-time-tracker/",
+        "gh": "https://github.com/trunten/fm-time-tracker",
         "image": "/images/time.jpg",
         "languages": "html / css / javascript"
     },
@@ -67,6 +76,7 @@
         "title": "Chat App Website",
         "description": "",
         "link" : "https://trunten.github.io/fm-chat-app/",
+        "gh": "https://github.com/trunten/fm-chat-app",
         "image": "/images/chat.png",
         "languages": "html / css / javascript"
     },

@@ -23,9 +23,8 @@ html {
 /* Hero/About section */
 /* ------------- */
 .jumbotron {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(152, 152, 152, 0.8));/*, url(../images/laptop.jpg)*/
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(152, 152, 152, 0.8)), url(../images/laptop.jpg);
   background-size: cover;
-  background-attachment: fixed;
   background-position: 50% 50%;
   color:white !important;
   min-height: 96vh;
@@ -52,6 +51,7 @@ html {
 }
 
 #projects .img-wrapper {
+  position: relative;
   background-color:gray;
 }
 
@@ -59,18 +59,23 @@ html {
   object-fit: cover;
   object-position: 50% 50%;
   height: 250px; 
-  /* opacity: 0.99; */
   transition: opacity 0.4s ease-in-out;
 }
 
-#projects .card a {
+#projects .card .buttons {
   position: absolute;
-  top: 35%;
-  left: calc((100% / 2) - 60px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: none;
   z-index: 99;
   transition: all 0.4s ease-in-out;
+  /* background-color: rgba(0,0,0,0.2); */
+}
+
+#projects .card a { 
   background-color: rgba(0,0,0,0.2);
+  display: block;
 }
 
 #projects .card a:hover {
@@ -89,7 +94,7 @@ html {
   opacity: 0.3;
 }
 
-#projects .card:hover a {
+#projects .card:hover div {
   display: block;
   transition: all 0.4s ease-in-out;
 }
