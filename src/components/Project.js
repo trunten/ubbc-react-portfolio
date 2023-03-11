@@ -6,7 +6,7 @@ export default function Project(props) {
             <div className="card">
               <div className="img-wrapper">
                 <a href={link} target="_blank" className="btn btn-outline-light rounded-pill" rel="noreferrer">Deployed Site</a>
-                <img src={process.env.PUBLIC_URL + image} className="card-img-top" loading="lazy" alt="project screenshot" />
+                <img src={process.env.PUBLIC_URL + image} className="card-img-top" loading="lazy" alt={description || "project screenshot"} />
               </div>
               <div className="card-body p-3">
                 <h5 className="card-title my-0">{title}</h5>
