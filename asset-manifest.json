@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/ubbc-react-portfolio/static/js/main.9dde67c7.js",
+    "main.css": "/ubbc-react-portfolio/static/css/main.e271e4dd.css",
+    "main.js": "/ubbc-react-portfolio/static/js/main.c1e25787.js",
     "index.html": "/ubbc-react-portfolio/index.html",
-    "main.9dde67c7.js.map": "/ubbc-react-portfolio/static/js/main.9dde67c7.js.map"
+    "main.e271e4dd.css.map": "/ubbc-react-portfolio/static/css/main.e271e4dd.css.map",
+    "main.c1e25787.js.map": "/ubbc-react-portfolio/static/js/main.c1e25787.js.map"
   },
   "entrypoints": [
-    "static/js/main.9dde67c7.js"
+    "static/css/main.e271e4dd.css",
+    "static/js/main.c1e25787.js"
   ]
 }
