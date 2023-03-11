@@ -9,7 +9,6 @@ export default function Project(props) {
   // }
   
   // getImg(image.replace("/images/",""));
-  console.log(link);
   
   return (
     <div className={"mb-4 " + (hero ? "col-sm-12 col-md-8 col-lg-6" : "col-sm-6 col-md-4 col-lg-3")} onClick={() => window.open(link || gh, "_blank")}>
