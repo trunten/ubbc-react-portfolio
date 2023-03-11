@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 export default function ProgressBar({ name, width }) {
     const [zero, setZero] = useState("zero");
 
-    useEffect(() => { setTimeout(() => { setZero("") }, 300) } ); // useEffect
+    useEffect(() => { setTimeout(() => { setZero("") }, 150) } ); // useEffect
     // (() => { setTimeout(() => { setZero("") }, 300) })(); // useSatte
 
     return (

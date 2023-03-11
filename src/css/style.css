@@ -101,11 +101,10 @@ html {
 /* End of Project section */
 
 
-/* --------------- */
-/* Contact section */
-/* --------------- */
-#contact li {
-  position: relative;
+/* ----------------------- */
+/* Contact buttons section */
+/* ----------------------- */
+.contact-button {
   display: inline-block;
   margin-top: 10px;
   width: 75px;
@@ -114,28 +113,29 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-  #contact li {
+  .contact-button {
     margin: 10px -8px 0px -8px;
   }
 }
 
 @media screen and (max-width: 340px) {
-  #contact li {
+  .contact-button {
     margin: 10px -12px 0px -12px;
   }
 }
 
-#contact i {
+.contact-button i {
+  position: relative;
   padding: 11px 0;
-  border: 1px solid var(--my-grey);
   background-color: var(--my-grey);
+  border: 1px solid var(--my-grey);
   color: white;
   border-radius: 30px;
   width: 45px;
   transition: all 0.3s ease-in-out;
 }
 
-#contact i:hover {
+.contact-button i:hover {
   border: 1px solid #5387ff;
   background-color: #5387ff;
   transform: translateY(-2px);
@@ -144,33 +144,20 @@ html {
   transition: all 0.3s ease-in-out;
 }
 
-#contact i:hover::after {
+.contact-button i:hover::after {
   content: attr(text) !important;
   display: block;
   position: absolute;
   top: -20px;
-  left: -22%;
-  width: 150%;
-  padding: 0 ;
-  margin: 0 ;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  margin: 0;
   text-align: center;
   font-size: 12px;
   color: black;
 }
-
-#contact {
-  margin-bottom: 80px;
-}
-
-#phoneNum {
-  margin-top: 20px;
-  font-size: 14px;
-}
-
-#phoneNum a {
-  color:blue;
-}
-/* End of Contact section */
+/* End of Contact buttons section */
 
 
 /* -------------- */

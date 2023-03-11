@@ -6,13 +6,13 @@ export default function Skills() {
         <div className="row">
           <div className="col-xl-4 col-lg-5 col-md-6 col-sm-10 mx-auto">
             <h2 className="display-4 text-center my-4">Current Skills</h2>
-            <ProgressBar name="HTML" width="80" />
-            <ProgressBar name="CSS" width="40" />
-            <ProgressBar name="Bootstrap" width="30" />
-            <ProgressBar name="JavaScript" width="70" />
+            <ProgressBar name="HTML" width="95" />
+            <ProgressBar name="CSS" width="60" />
+            <ProgressBar name="Bootstrap" width="50" />
+            <ProgressBar name="JavaScript" width="90" />
             <ProgressBar name="Java" width="15" />
-            <ProgressBar name="React" width="10" />
-            <ProgressBar name="VBA" width="90" />
+            <ProgressBar name="React" width="20" />
+            <ProgressBar name="VBA" width="80" />
           </div>
           <div className="col-xl-4 col-lg-5 col-md-6 col-sm-10 mx-auto">
             <h2 className="display-4 text-center my-4">Future Skills</h2>
