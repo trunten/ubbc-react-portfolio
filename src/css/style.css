@@ -1,0 +1,179 @@
+/* vars */
+:root {
+  --my-grey: rgba(52, 58, 64, 0.95);
+  --near-black: rgb(52, 58, 64);
+  --near-white: rgb(248,249,250);
+}
+
+/* Smooth scrolling */
+html {
+	scroll-behavior: smooth;
+}
+
+
+/* ------------- */
+/* Navbar section */
+/* ------------- */
+.nav-item a:hover {
+  color: white !important;
+}
+/* End of navbar section */
+
+/* ------------- */
+/* Hero/About section */
+/* ------------- */
+.jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(152, 152, 152, 0.8));/*, url(../images/laptop.jpg)*/
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  color:white !important;
+  min-height: 96vh;
+  max-height: 100%;
+}
+
+.jumbotron a:hover {
+  color: rgb(255, 193, 7) !important;
+}
+/* End of Hero/About section */
+
+
+/* --------------- */
+/* Project section */
+/* --------------- */
+#projects .card-body {
+  background-color: rgb(243, 243, 243);
+}
+
+#projects .card {
+  transition: all 0.4s ease-in-out;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+#projects .img-wrapper {
+  background-color:gray;
+}
+
+#projects .card img { 
+  object-fit: cover;
+  object-position: 50% 50%;
+  height: 250px; 
+  /* opacity: 0.99; */
+  transition: opacity 0.4s ease-in-out;
+}
+
+#projects .card a {
+  position: absolute;
+  top: 35%;
+  left: calc((100% / 2) - 60px);
+  display: none;
+  z-index: 99;
+  transition: all 0.4s ease-in-out;
+  background-color: rgba(0,0,0,0.2);
+}
+
+#projects .card a:hover {
+  background-color: rgba(255,255,255,0.8);
+  color: darkslategrey;
+}
+
+#projects .card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 10px 0px grey;
+  transition: all 0.4s ease-in-out;
+}
+
+#projects .card:hover img {
+  transition: opacity 0.4s ease-in-out;
+  opacity: 0.3;
+}
+
+#projects .card:hover a {
+  display: block;
+  transition: all 0.4s ease-in-out;
+}
+/* End of Project section */
+
+
+/* --------------- */
+/* Contact section */
+/* --------------- */
+#contact li {
+  display: inline-block;
+}
+
+#contact li {
+  margin-top: 10px;
+  width: 75px;
+  text-align: center;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #contact li {
+    margin: 10px -8px 0px -8px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  #contact li {
+    margin: 10px -12px 0px -12px;
+  }
+}
+
+#contact i {
+  padding: 11px 0;
+  border: 1px solid var(--my-grey);
+  background-color: var(--my-grey);
+  color: white;
+  border-radius: 30px;
+  width: 45px;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact i:hover {
+  border: 1px solid #5387ff;
+  background-color: #5387ff;
+  transform: translateY(-2px);
+  /* Horizontal Length | Vertical Length  | Blur Radius | Spread Radius | Shaddow colour */
+  box-shadow: 0px 5px 10px 0px grey;   
+  transition: all 0.3s ease-in-out;
+}
+
+#contact i:hover::after {
+  content: attr(text) !important;
+  display: block;
+  position: absolute;
+  top: -20px;
+  left: -22%;
+  width: 150%;
+  padding: 0 ;
+  margin: 0 ;
+  text-align: center;
+  font-size: 12px;
+  color: black;
+}
+
+#contact {
+  margin-bottom: 80px;
+}
+
+#phoneNum {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#phoneNum a {
+  color:blue;
+}
+/* End of Contact section */
+
+
+/* -------------- */
+/* Skills section */
+/* -------------- */
+.zero {
+  width: 0 !important;
+}
+/* End of Skills sections */

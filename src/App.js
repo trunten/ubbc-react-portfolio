@@ -4,22 +4,23 @@ import NavTabs from './components/NavTabs';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
+import Skills from './components/pages/Skills';
 import Contact from './components/pages/Contact';
 
 function App() {
   return (
     <Router>
-      <div className='m-3'>
+      <div className="">
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
         <Routes>
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="/" element={<About />} />
+          {/* <Route path="about" element={<About />} /> */}
           <Route path="projects" element={<Projects />} />
-          {/* Define a route that will have descendant routes */}
-          <Route path="contact/*" element={<Contact />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

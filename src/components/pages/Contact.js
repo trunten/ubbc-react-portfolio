@@ -1,31 +1,17 @@
-import { Link, Route, Routes } from 'react-router-dom';
-
-export default function Contact(props) {
+export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-      <Link to="learn" role="button" className="btn btn-link">
-        Learn More
-      </Link>
-      <Link to="contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link>
-      <Routes>
-        <Route path="learn" element={<><h3>Hi</h3><p>This is a sub route thingy</p></>} />
-      </Routes>
+    <div className="container-fluid text-center" id="contact">
+      <h2 className="display-4 py-4">Contact</h2>
+      <ul className="p-0">
+        <li><a href="mailto:jonathan@davis.com"><i className="fa fa-envelope" aria-hidden="true" text="email"></i></a></li>
+        <li><a href="https://twitter.com/username" target="_blank"><i className="fa fa-twitter" aria-hidden="true" text="twitter"></i></a></li>
+        <li><a href="https://linkedin.com/in/username" target="_blank"><i className="fa fa-linkedin" aria-hidden="true" text="linkedin"></i></a></li>
+        <li><a href="https://www.facebook.com/username" target="_blank"><i className="fa fa-facebook" aria-hidden="true" text="facebook"></i></a></li>
+        <li><a href="https://github.com/trunten" target="_blank"><i className="fa fa-github" aria-hidden="true" text="github"></i></a></li>
+      </ul>
+      <div id="phoneNum">
+        <p>Tel: <a href="tel:+441211211211">0121 121 1211</a><span className="mx-3">|</span>Mob: <a href="tel:+447123456789">07123 456 789</a></p>
+      </div>
     </div>
   );
 }

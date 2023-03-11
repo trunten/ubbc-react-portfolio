@@ -1,14 +1,74 @@
 [
     {
-        "title": "P1",
-        "description": "Project 1",
-        "image": "https://source.unsplash.com/featured/300x200",
-        "languages": "html / css / react"
+        "title": "City Crime Data",
+        "description": "City Crime Data",
+        "link" : "https://trunten.github.io/ubbc-crime-data/",
+        "image": "/images/crime-data.jpg",
+        "languages": "html / css / javascript",
+        "hero": "true"
     },
     {
-        "title": "P2",
-        "description": "Project 2",
-        "image": "https://source.unsplash.com/featured/300x201",
-        "languages": "html / css / js"
+        "title": "Weather Dashboard",
+        "description": "",
+        "link" : "https://trunten.github.io/ubbc-weather-dashboard/",
+        "image": "/images/weather.jpg",
+        "languages": "html / css / javascript"
+    },
+    {
+        "title": "Password Generator",
+        "description": "",
+        "link" : "https://trunten.github.io/fm-password-generator/",
+        "image": "/images/password.png",
+        "languages": ""
+    },
+    {
+        "title": "CSS Cheatsheet",
+        "description": "",
+        "link" : "https://trunten.github.io/css-cheatsheet/",
+        "image": "/images/css.jpg",
+        "languages": "html / css / javascript"
+    },
+    {
+        "title": "Chat App Website",
+        "description": "",
+        "link" : "https://trunten.github.io/fm-chat-app/",
+        "image": "/images/chat.png",
+        "languages": "html / css / javascript"
+    },
+    {
+        "title": "Pong Game",
+        "description": "",
+        "link" : "https://trunten.github.io/js-canvas-pong/",
+        "image": "/images/pong.jpg",
+        "languages": "html / javascript"
+    },
+    {
+        "title": "Rock Paper Scissors",
+        "description": "",
+        "link" : "https://trunten.github.io/fm-rock-paper-scissors/",
+        "image": "/images/rps.png",
+        "languages": "html / css / javascript"
+    },
+    {
+        "title": "Time Tracker",
+        "description": "",
+        "link" : "https://trunten.github.io/fm-time-tracker/",
+        "image": "/images/time.jpg",
+        "languages": "html / css / javascript"
+    },
+    {
+        "title": "Work Day Scheduler",
+        "description": "",
+        "link" : "https://trunten.github.io/ubbc-work-day-scheduler/",
+        "image": "/images/scheduler.png",
+        "languages": "html / css / jquery"
+    },
+    {
+        "title": "Future",
+        "description": "",
+        "link" : "https://trunten.github.io/python-gui-test/",
+        "image": "/images/placeholder1.jpg",
+        "languages": "watch this space"
     }
+    
 ]

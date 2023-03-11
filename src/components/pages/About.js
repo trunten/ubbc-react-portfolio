@@ -1,14 +1,20 @@
+import { NavLink } from 'react-router-dom';
+
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div id="about" className="jumbotron jumbotron-fluid bg-white">
+      <div className="container">
+        <img src={process.env.PUBLIC_URL + "/images/profile.png"} height="200px" alt="My profile avatar" />
+        <h2 className="h1">Jonathan Davis</h2>
+        <p className="lead"><span className="font-weight-bold">Profession:</span> Amateur Coder</p>
+        <br />
+        <h3>About Me</h3>
+        <p>
+          I'm a budding front-end developer based in Birmingham in the UK. I'm new to the game but full of enthusiasm and keen to work relentlessly to develop my skills and become an all round front-end specialist. 
+          <br /><br />I've only just begun my journey but have already completed a number of projects that I feel showcase the skills I've learned so far. Check out my projects to see what I can do, and watch this space because I'm just going to get better and better as the weeks move on.
+          <br /><br />Like what you see? Feel free to <NavLink to="/contact" end className="text-warning">contact me</NavLink> any time, day or night.
+        </p>
+      </div>
     </div>
   );
 }
