@@ -1,7 +1,7 @@
 [
     {
         "title": "City Crime Data",
-        "description": "A single page web app that allows you to search for and display the local crime data statistics for any area in England.",
+        "description": "A single page web app that allows you to search for local crime data statistics for any location in England.",
         "link" : "https://trunten.github.io/ubbc-crime-data/",
         "gh": "https://github.com/trunten/ubbc-crime-data",
         "image": "/images/crime-data.jpg",
