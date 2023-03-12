@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ubbc-react-portfolio/static/css/main.ac80f2cd.css",
-    "main.js": "/ubbc-react-portfolio/static/js/main.6d192b74.js",
+    "main.js": "/ubbc-react-portfolio/static/js/main.58748c23.js",
     "static/js/60.ca03cb18.chunk.js": "/ubbc-react-portfolio/static/js/60.ca03cb18.chunk.js",
     "static/js/799.77bc82c2.chunk.js": "/ubbc-react-portfolio/static/js/799.77bc82c2.chunk.js",
     "static/js/697.2413d832.chunk.js": "/ubbc-react-portfolio/static/js/697.2413d832.chunk.js",
@@ -37,10 +37,10 @@
     "static/media/time.jpg": "/ubbc-react-portfolio/static/media/time.bbec6b43e9845b786ef8.jpg",
     "index.html": "/ubbc-react-portfolio/index.html",
     "main.ac80f2cd.css.map": "/ubbc-react-portfolio/static/css/main.ac80f2cd.css.map",
-    "main.6d192b74.js.map": "/ubbc-react-portfolio/static/js/main.6d192b74.js.map"
+    "main.58748c23.js.map": "/ubbc-react-portfolio/static/js/main.58748c23.js.map"
   },
   "entrypoints": [
     "static/css/main.ac80f2cd.css",
-    "static/js/main.6d192b74.js"
+    "static/js/main.58748c23.js"
   ]
 }
