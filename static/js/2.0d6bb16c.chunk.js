@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[2],{2:function(c,e,t){c.exports=t.p+"static/media/weather.6c01188c4bc4c1822c94.jpg"}}]);

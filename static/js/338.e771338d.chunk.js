@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[338],{338:function(e,t,f){e.exports=f.p+"static/media/letters.dd08f77fbef55e687dde.jpg"}}]);
