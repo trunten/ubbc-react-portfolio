@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[799],{799:function(t,a,e){t.exports=e.p+"static/media/chat.181a8457da22445a4123.png"}}]);

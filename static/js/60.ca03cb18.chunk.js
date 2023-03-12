@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[60],{60:function(e,a,c){e.exports=c.p+"static/media/calendar.7621e2eb14b236cceaaf.jpg"}}]);

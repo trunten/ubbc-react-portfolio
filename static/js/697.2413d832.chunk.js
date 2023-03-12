@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[697],{697:function(t,c,e){t.exports=e.p+"static/media/crime-data.940d4f60c78f5341c390.jpg"}}]);
