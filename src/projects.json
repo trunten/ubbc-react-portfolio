@@ -1,16 +1,16 @@
 [
     {
         "title": "City Crime Data",
-        "description": "This is a test description i will add the proper one later",
+        "description": "A single page web app that allows you to search for and display the local crime data statistics for any area in England.",
         "link" : "https://trunten.github.io/ubbc-crime-data/",
         "gh": "https://github.com/trunten/ubbc-crime-data",
         "image": "/images/crime-data.jpg",
-        "languages": "html / css / javascript",
+        "languages": "html / bootstrap / javascript",
         "hero": "true"
     },
     {
         "title": "Weather Dashboard",
-        "description": "This is a another test description but it's really long this time. I will add the proper one later",
+        "description": "A modern weather app for desktop and mobile. Search for the current weather and 5 day forecast in any location.",
         "link" : "https://trunten.github.io/ubbc-weather-dashboard/",
         "gh": "https://github.com/trunten/ubbc-weather-dashboard",
         "image": "/images/weather.jpg",
@@ -18,15 +18,15 @@
     },
     {
         "title": "Password Generator",
-        "description": "",
+        "description": "Generate strong passwords of any length with ease.",
         "link" : "https://trunten.github.io/fm-password-generator/",
         "gh": "https://github.com/trunten/fm-password-generator",
-        "image": "/images/password.png",
+        "image": "/images/padlock.jpg",
         "languages": "html / css / javascript"
     },
     {
         "title": "Rock Paper Scissors",
-        "description": "",
+        "description": "A fun Rock Paper Scissors game. Play solo or with a friend.",
         "link" : "https://trunten.github.io/fm-rock-paper-scissors/",
         "gh": "https://github.com/trunten/fm-rock-paper-scissors",
         "image": "/images/rps.png",
@@ -34,7 +34,7 @@
     },
     {
         "title": "Pong Game",
-        "description": "",
+        "description": "Retro pong game. Relive the 70's with this modern classic.",
         "link" : "https://trunten.github.io/js-canvas-pong/",
         "gh": "https://github.com/trunten/js-canvas-pong",
         "image": "/images/pong.jpg",
@@ -42,23 +42,24 @@
     },
     {
         "title": "Work Day Scheduler",
-        "description": "",
+        "description": "GTD like a pro with this simple work day calendar app.",
         "link" : "https://trunten.github.io/ubbc-work-day-scheduler/",
         "gh": "https://github.com/trunten/ubbc-work-day-scheduler",
-        "image": "/images/scheduler.png",
-        "languages": "html / css / jquery"
+        "image": "/images/calendar.jpg",
+        "languages": "html / bootstrap / jquery",
+        "hero": true
     },
     {
         "title": "Word Guessing Game",
-        "description": "Old school hangman",
+        "description": "A simple word guessing game. Type letters on your keyboard to try and solve the puzzle.",
         "link" : "https://trunten.github.io/word-guessing-game/",
         "gh": "https://github.com/trunten/word-guessing-game",
-        "image": "/images/hangman.jpg",
+        "image": "/images/letters.jpg",
         "languages": "html / css / javascript"
     },
     {
         "title": "CSS Cheatsheet",
-        "description": "",
+        "description": "CSS Snippets for Flexbox, Grid and more. All at your fingertips in a click.",
         "link" : "https://trunten.github.io/css-cheatsheet/",
         "gh": "https://github.com/trunten/css-cheatsheet",
         "image": "/images/css.jpg",
@@ -66,7 +67,7 @@
     },
     {
         "title": "Time Tracker",
-        "description": "",
+        "description": "Demo application displaying my skills in responsive design with CSS grid and live updates from external data",
         "link" : "https://trunten.github.io/fm-time-tracker/",
         "gh": "https://github.com/trunten/fm-time-tracker",
         "image": "/images/time.jpg",
@@ -74,7 +75,7 @@
     },
     {
         "title": "Chat App Website",
-        "description": "",
+        "description": "CSS Design challenge. A simple landing page for a fictitious mobile app showcasing repsonive design and js DOM manipulation.",
         "link" : "https://trunten.github.io/fm-chat-app/",
         "gh": "https://github.com/trunten/fm-chat-app",
         "image": "/images/chat.png",
@@ -82,7 +83,7 @@
     },
     {
         "title": "Future",
-        "description": "",
+        "description": "I'm hard at work building my next project. Keep checking back to see my portfolio grow.",
         "link" : "https://trunten.github.io/python-gui-test/",
         "image": "/images/placeholder.jpg",
         "languages": "watch this space"

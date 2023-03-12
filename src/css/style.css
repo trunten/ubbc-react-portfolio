@@ -82,6 +82,7 @@ html {
   display: none;
   z-index: 99;
   transition: all 0.4s ease-in-out;
+  min-width: 130px;
   /* background-color: rgba(0,0,0,0.2); */
 }
 
