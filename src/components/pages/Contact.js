@@ -11,10 +11,10 @@ export default function Contact() {
           
           <ul className="p-0 pb-3 ml-auto">
             <ContactButton link="mailto:jonathan@davis.com" icon="envelope" text="email" />
-            <ContactButton link="https://twitter.com/username" text="twitter" />
             <ContactButton link="https://www.linkedin.com/in/jonathan-davis-405a9a87/" text="linkedin" />
-            <ContactButton link="https://www.facebook.com/username" text="facebook" />
             <ContactButton link="https://github.com/trunten" text="github" />
+            <ContactButton link="https://twitter.com/username" text="twitter" />
+            <ContactButton link="https://www.facebook.com/username" text="facebook" />
           </ul>
           <div style={{marginTop: "20px", fontSize: "14px"}}>
             <p>
@@ -24,11 +24,10 @@ export default function Contact() {
             </p>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 mb-4">
           <ContactForm />
         </div>
       </div>
     </div>
-
   );
 }

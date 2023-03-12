@@ -11,11 +11,22 @@ html {
 }
 
 
-/* ------------- */
+/* -------------- */
 /* Navbar section */
-/* ------------- */
+/* -------------- */
+.nav-item a {
+  border-bottom: 2px solid transparent;
+  border-top: 2px solid transparent;
+}
+
 .nav-item a:hover {
   color: white !important;
+}
+
+@media screen and (min-width: 576px) {
+  .nav-item a:hover {
+    border-bottom: 2px solid white;
+  }
 }
 /* End of navbar section */
 
@@ -23,15 +34,16 @@ html {
 /* Hero/About section */
 /* ------------- */
 .jumbotron {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(152, 152, 152, 0.8)), url(../images/laptop.jpg);
+  background: linear-gradient(rgba(52, 58, 64, 1), rgba(52, 58, 64, 0.9)), url(../images/laptop.jpg);
   background-size: cover;
   background-position: 50% 50%;
   color:white !important;
   min-height: 96vh;
   max-height: 100%;
+  /* background-color: rgb(52, 58, 64); */
 }
 
-.jumbotron a:hover {
+.jumbotron a.text-warning:hover {
   color: rgb(255, 193, 7) !important;
 }
 /* End of Hero/About section */
