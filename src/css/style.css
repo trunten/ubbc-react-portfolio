@@ -70,7 +70,7 @@ html {
 #projects .card img { 
   object-fit: cover;
   object-position: 50% 50%;
-  height: 250px; 
+  height: 280px; 
   transition: opacity 0.4s ease-in-out;
 }
 
