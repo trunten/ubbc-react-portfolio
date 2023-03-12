@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/ubbc-react-portfolio/static/css/main.ac80f2cd.css",
-    "main.js": "/ubbc-react-portfolio/static/js/main.58748c23.js",
+    "main.js": "/ubbc-react-portfolio/static/js/main.762a3f63.js",
     "static/js/60.ca03cb18.chunk.js": "/ubbc-react-portfolio/static/js/60.ca03cb18.chunk.js",
     "static/js/799.77bc82c2.chunk.js": "/ubbc-react-portfolio/static/js/799.77bc82c2.chunk.js",
     "static/js/697.2413d832.chunk.js": "/ubbc-react-portfolio/static/js/697.2413d832.chunk.js",
     "static/js/897.c3bde9bc.chunk.js": "/ubbc-react-portfolio/static/js/897.c3bde9bc.chunk.js",
-    "static/js/36.b8fc4f96.chunk.js": "/ubbc-react-portfolio/static/js/36.b8fc4f96.chunk.js",
     "static/js/77.cabc08a7.chunk.js": "/ubbc-react-portfolio/static/js/77.cabc08a7.chunk.js",
     "static/js/863.a03acdc4.chunk.js": "/ubbc-react-portfolio/static/js/863.a03acdc4.chunk.js",
     "static/js/338.e771338d.chunk.js": "/ubbc-react-portfolio/static/js/338.e771338d.chunk.js",
@@ -37,10 +36,10 @@
     "static/media/time.jpg": "/ubbc-react-portfolio/static/media/time.bbec6b43e9845b786ef8.jpg",
     "index.html": "/ubbc-react-portfolio/index.html",
     "main.ac80f2cd.css.map": "/ubbc-react-portfolio/static/css/main.ac80f2cd.css.map",
-    "main.58748c23.js.map": "/ubbc-react-portfolio/static/js/main.58748c23.js.map"
+    "main.762a3f63.js.map": "/ubbc-react-portfolio/static/js/main.762a3f63.js.map"
   },
   "entrypoints": [
     "static/css/main.ac80f2cd.css",
-    "static/js/main.58748c23.js"
+    "static/js/main.762a3f63.js"
   ]
 }
