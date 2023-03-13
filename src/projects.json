@@ -6,6 +6,7 @@
         "gh": "https://github.com/trunten/ubbc-crime-data",
         "image": "/images/crime-data.jpg",
         "languages": "html / bootstrap / javascript",
+        "tags" : ["html", "javascript", "css", "bootstrap", "api", "js", "jquery"],
         "hero": "true"
     },
     {
@@ -14,7 +15,8 @@
         "link" : "https://trunten.github.io/ubbc-weather-dashboard/",
         "gh": "https://github.com/trunten/ubbc-weather-dashboard",
         "image": "/images/weather.jpg",
-        "languages": "html / css / javascript"
+        "languages": "html / css / javascript",
+        "tags" : ["html", "javascript", "css", "api", "js", "grid", "app", "weather"]
     },
     {
         "title": "Password Generator",
@@ -22,7 +24,8 @@
         "link" : "https://trunten.github.io/fm-password-generator/",
         "gh": "https://github.com/trunten/fm-password-generator",
         "image": "/images/padlock.jpg",
-        "languages": "html / css / javascript"
+        "languages": "html / css / javascript",
+        "tags" : ["html", "javascript", "css", "js", "app"]
     },
     {
         "title": "Rock Paper Scissors",
@@ -30,7 +33,8 @@
         "link" : "https://trunten.github.io/fm-rock-paper-scissors/",
         "gh": "https://github.com/trunten/fm-rock-paper-scissors",
         "image": "/images/rps.png",
-        "languages": "html / css / javascript"
+        "languages": "html / css / javascript",
+        "tags" : ["html", "javascript", "css", "game"]
     },
     {
         "title": "Pong Game",
@@ -38,7 +42,8 @@
         "link" : "https://trunten.github.io/js-canvas-pong/",
         "gh": "https://github.com/trunten/js-canvas-pong",
         "image": "/images/pong.jpg",
-        "languages": "html / javascript"
+        "languages": "html / javascript",
+        "tags" : ["html", "javascript", "js", "game"]
     },
     {
         "title": "Work Day Scheduler",
@@ -47,7 +52,7 @@
         "gh": "https://github.com/trunten/ubbc-work-day-scheduler",
         "image": "/images/calendar.jpg",
         "languages": "html / bootstrap / jquery",
-        "hero": true
+        "tags" : ["html", "javascript", "css", "bootstrap", "api", "js", "jquery", "app", "weather"]
     },
     {
         "title": "Word Guessing Game",
@@ -55,7 +60,8 @@
         "link" : "https://trunten.github.io/word-guessing-game/",
         "gh": "https://github.com/trunten/word-guessing-game",
         "image": "/images/letters.jpg",
-        "languages": "html / css / javascript"
+        "languages": "html / css / javascript",
+        "tags" : ["html", "javascript", "css", "game"]
     },
     {
         "title": "CSS Cheatsheet",
@@ -63,15 +69,17 @@
         "link" : "https://trunten.github.io/css-cheatsheet/",
         "gh": "https://github.com/trunten/css-cheatsheet",
         "image": "/images/css.jpg",
-        "languages": "html / css / javascript"
+        "languages": "html / css / javascript",
+        "tags" : ["html", "css", "grid"]
     },
     {
         "title": "Time Tracker",
-        "description": "Demo application displaying my skills in responsive design with CSS grid and live updates from external data",
+        "description": "Demo application displaying my skills in responsive design with CSS grid and updating content from external data",
         "link" : "https://trunten.github.io/fm-time-tracker/",
         "gh": "https://github.com/trunten/fm-time-tracker",
         "image": "/images/time.jpg",
-        "languages": "html / css / javascript"
+        "languages": "html / css / javascript",
+        "tags" : ["html", "javascript", "css", "js", "grid"]
     },
     {
         "title": "Chat App Website",
@@ -79,14 +87,25 @@
         "link" : "https://trunten.github.io/fm-chat-app/",
         "gh": "https://github.com/trunten/fm-chat-app",
         "image": "/images/chat.png",
-        "languages": "html / css / javascript"
+        "languages": "html / css / javascript",
+        "tags" : ["html", "javascript", "css", "js"]
     },
+    {
+      "title": "Github Readme Generator",
+      "description": "CSS Design challenge. A simple landing page for a fictitious mobile app showcasing repsonive design and js DOM manipulation.",
+      "link" : "https://trunten.github.io/ubbc-readme-generator/",
+      "gh": "https://github.com/trunten/ubbc-readme-generator",
+      "image": "/images/readme.jpg",
+      "languages": "html / css / javascript",
+      "tags" : ["javascript", "js", "node", "npm", "cmd", "command line", "console"]
+  },
     {
         "title": "Future Projects",
         "description": "I'm hard at work building my next project. Keep checking back to see my portfolio grow.",
         "link" : "https://trunten.github.io/python-gui-test/",
         "image": "/images/future.jpg",
-        "languages": "watch this space"
+        "languages": "watch this space",
+        "tags" : ["future"]
     }
     
 ]

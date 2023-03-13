@@ -178,4 +178,20 @@ html {
 .zero {
   width: 0 !important;
 }
+
+.stack-icon {
+  cursor: pointer;
+  width: 80px;
+}
+
+.stack-icon img {
+  filter: grayscale(100%);
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.stack-icon:hover img {
+  filter: none !important;
+}
 /* End of Skills sections */
