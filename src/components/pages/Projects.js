@@ -7,7 +7,7 @@ export default function Projects() {
 
   function filterProjects(e, str) {
     e.preventDefault();
-    if (str) { document.querySelector("input").value = ""; } else { str = e.target.value.trim(); }
+    if (str !== undefined) { document.querySelector("input").value = ""; } else { str = e.target.value.trim(); }
     if (str === "") {
       setProjects(allProjects);
     } else {
