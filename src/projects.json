@@ -92,7 +92,7 @@
     },
     {
       "title": "Github Readme Generator",
-      "description": "CSS Design challenge. A simple landing page for a fictitious mobile app showcasing repsonive design and js DOM manipulation.",
+      "description": "A command line utility that produces a professional, high quality README file from the answers to a series of user input prompts.",
       "link" : "https://trunten.github.io/ubbc-readme-generator/",
       "gh": "https://github.com/trunten/ubbc-readme-generator",
       "image": "/images/readme.jpg",
