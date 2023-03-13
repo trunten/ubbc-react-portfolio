@@ -2,14 +2,14 @@
 // import placeholder from "../images/placeholder.jpg";
 
 export default function Project(props) {  
-  const {title, languages, description, image, link, gh, hero} = props.project;
-  
-  // Dynamic imports from src folder - works but needs more testing
+  const {title, languages, description, image, screenshot, link, gh, hero} = props.project;
+  const src = process.env.PUBLIC_URL + "/images/" + (props.type === "marketing" ? image : "screenshots/" + screenshot);
+  // // Dynamic imports from src folder - works but needs more testing
   // const [img, setImg] = useState(placeholder);
   // function getImg(src) {
   //   import(`../images/${src}`).then((image) => setImg(image.default));
   // }
-  // getImg(image.replace("/images/",""));
+  // getImg(image);
   
   function cardClick(e) {
     if (e.target.tagName !== "A") {
@@ -26,7 +26,7 @@ export default function Project(props) {
             {gh && <a href={gh} target="_blank" className={`btn btn-outline-light rounded-pill ${link ? "mt-3" : ""}`} rel="noreferrer">GitHub Repo</a>}
           </div>
           {/* <img src={img} className="card-img-top" alt={description || "project image"} /> */}
-          <img src={process.env.PUBLIC_URL + image} className="card-img-top" loading="lazy" alt={description || "project image"} />
+          <img src={src} className="card-img-top" loading="lazy" alt={description || "project image"} />
         </div>
         <div className="card-body px-3 pb-0" style={{position: "relative"}}>
           <h5 className="card-title my-0">{title}</h5>

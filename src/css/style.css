@@ -111,6 +111,65 @@ html {
   display: block;
   transition: all 0.4s ease-in-out;
 }
+
+/* Image toggle */
+.toggle {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  transition: opacity 200ms linear;
+  opacity: 0.6;
+}
+
+.toggle:hover {
+  opacity: 1;
+}
+
+.toggle label {
+  font-size: 1.2rem;
+  color: black;
+  cursor: pointer;
+  transform: translateY(3px);
+}
+
+.toggle input {
+  display: none;
+}
+
+.toggle-btn {
+  padding: 0.3rem;
+  border: 1.5px solid black;
+  border-radius: 100vmax;
+  outline: none;
+  background-color: transparent;
+  width: 3.5rem;
+  height: 1.8rem;
+  cursor: pointer;
+}
+
+.toggle-btn::after {
+  content: "";
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 1.75rem;
+  transition: margin 150ms linear;
+}
+
+.toggle-on:checked ~ .toggle-btn::after {
+  margin-left: 0;
+}
+
+#image-toggle {
+  scale: 0.7;
+  width: 270px;
+  margin-left: auto;
+  margin-right: -30px;
+  margin-bottom: -5px;
+}
+
 /* End of Project section */
 
 

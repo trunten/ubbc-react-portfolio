@@ -4,6 +4,7 @@ import allProjects from "../../projects.json";
 
 export default function Projects() {
   const [projects, setProjects] = useState(allProjects);
+  const [imageType, setImageType] = useState("marketing");
 
   function filterProjects(e, str) {
     e.preventDefault();
@@ -19,6 +20,32 @@ export default function Projects() {
     }
   }
 
+  function imageToggle(e) {
+    e.preventDefault();
+    if (e.target.tagName === "DIV") { return; }
+    const marketing = document.querySelector("#marketing")
+    const screenshot = document.querySelector("#screenshot")
+    let newType;
+    if (e.target.tagName === "BUTTON") {
+      if (marketing.checked ) {
+        newType = "screenshot";
+        screenshot.checked = true
+      } else {
+        newType = "marketing";
+        marketing.checked = true;
+      }  
+    } else {
+      if (e.target.htmlFor === "marketing") {
+        newType = "marketing";
+        marketing.checked = true;
+      } else {
+        newType = "screenshot";
+        screenshot.checked = true
+      }
+    }
+    setImageType(newType);
+  }
+
   return (
     <div className="container-fluid mb-5" id="projects">
       <h2 className="display-4 text-center my-4">Projects</h2>
@@ -26,18 +53,25 @@ export default function Projects() {
         <div className="form-row">
           <div className="mx-auto" style={{width:"88%", maxWidth:"500px"}}>
             <input type="text" className="form-control" placeholder="Filter by name or technology" onChange={filterProjects} />
-            <a href="/" className="my-2 mx-1 btn btn-outline-dark" onClick={(e) => filterProjects(e, "game")}>#game</a>
-            <a href="/" className="my-2 mx-1 btn btn-outline-dark" onClick={(e) => filterProjects(e, "node")}>#node</a>
-            <a href="/" className="my-2 mx-1 btn btn-outline-dark" onClick={(e) => filterProjects(e, "jquery")}>#jquery</a>
-            <a href="/" className="my-2 mx-1 btn btn-outline-dark" onClick={(e) => filterProjects(e, "api")}>#api</a>
-            <a href="/" className="my-2 mx-1 btn btn-outline-dark" onClick={(e) => filterProjects(e, "bootstrap")}>#bootstrap</a>
-            <a href="/" className="my-2 mx-1 btn btn-outline-dark" onClick={(e) => {filterProjects(e, "");}}>#all</a>
+            <a href="/" className="my-2 mx-1 btn btn-outline-dark" style={{fontSize: "15px"}} onClick={(e) => filterProjects(e, "game")}>#game</a>
+            <a href="/" className="my-2 mx-1 btn btn-outline-dark" style={{fontSize: "15px"}} onClick={(e) => filterProjects(e, "node")}>#node</a>
+            <a href="/" className="my-2 mx-1 btn btn-outline-dark" style={{fontSize: "15px"}} onClick={(e) => filterProjects(e, "jquery")}>#jquery</a>
+            <a href="/" className="my-2 mx-1 btn btn-outline-dark" style={{fontSize: "15px"}} onClick={(e) => filterProjects(e, "api")}>#api</a>
+            <a href="/" className="my-2 mx-1 btn btn-outline-dark" style={{fontSize: "15px"}} onClick={(e) => filterProjects(e, "bootstrap")}>#bootstrap</a>
+            <a href="/" className="my-2 mx-1 btn btn-outline-dark" style={{fontSize: "15px"}} onClick={(e) => {filterProjects(e, "");}}>#all</a>
           </div>
-          
         </div>
       </form>
-      <div className="row mx-auto" style={{maxWidth:"1500px"}}>
-        {projects.map((project, index) => <Project key={index} pid={"p" + index} project={project}/>)}
+      <div className="row mx-auto position-relative" style={{maxWidth:"1500px"}}>
+        <div className="toggle" id="image-toggle" onClick={imageToggle}>
+          <label htmlFor="marketing">Marketing</label>
+          <input type="radio" name="image" id="marketing" className="toggle-on" defaultChecked />
+          <button className="toggle-btn" id="theme-toggle-btn"></button>
+          <input type="radio" name="image" id="screenshot" className="toggle-off" />
+          <label htmlFor="screenshot">Screenshot</label>
+        </div>
+        <div className="w-100"></div>
+        {projects.map((project, index) => <Project key={index} type={imageType} project={project}/>)}
       </div>
     </div>
   );

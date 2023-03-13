@@ -4,7 +4,8 @@
         "description": "A single page web app that allows you to search for local crime data statistics for any location in England.",
         "link" : "https://trunten.github.io/ubbc-crime-data/",
         "gh": "https://github.com/trunten/ubbc-crime-data",
-        "image": "/images/crime-data.jpg",
+        "image": "crime-data.jpg",
+        "screenshot": "crime.png",
         "languages": "html / bootstrap / javascript",
         "tags" : ["html", "javascript", "css", "bootstrap", "api", "js", "jquery"],
         "hero": "true"
@@ -14,7 +15,8 @@
         "description": "A modern weather app for desktop and mobile. Search for the current weather and 5 day forecast in any location.",
         "link" : "https://trunten.github.io/ubbc-weather-dashboard/",
         "gh": "https://github.com/trunten/ubbc-weather-dashboard",
-        "image": "/images/weather.jpg",
+        "image": "weather.jpg",
+        "screenshot": "weather.png",
         "languages": "html / css / javascript",
         "tags" : ["html", "javascript", "css", "api", "js", "grid", "app", "weather"]
     },
@@ -23,7 +25,8 @@
         "description": "Generate strong passwords of any length with ease.",
         "link" : "https://trunten.github.io/fm-password-generator/",
         "gh": "https://github.com/trunten/fm-password-generator",
-        "image": "/images/padlock.jpg",
+        "image": "padlock.jpg",
+        "screenshot": "password.png",
         "languages": "html / css / javascript",
         "tags" : ["html", "javascript", "css", "js", "app"]
     },
@@ -32,7 +35,8 @@
         "description": "A fun Rock Paper Scissors game. Play solo or with a friend.",
         "link" : "https://trunten.github.io/fm-rock-paper-scissors/",
         "gh": "https://github.com/trunten/fm-rock-paper-scissors",
-        "image": "/images/rps.png",
+        "image": "rps.png",
+        "screenshot": "rps.png",
         "languages": "html / css / javascript",
         "tags" : ["html", "javascript", "css", "game"]
     },
@@ -41,7 +45,8 @@
         "description": "Retro pong game. Relive the 70's with this modern classic.",
         "link" : "https://trunten.github.io/js-canvas-pong/",
         "gh": "https://github.com/trunten/js-canvas-pong",
-        "image": "/images/pong.jpg",
+        "image": "pong.jpg",
+        "screenshot": "pong.png",
         "languages": "html / javascript",
         "tags" : ["html", "javascript", "js", "game"]
     },
@@ -50,7 +55,8 @@
         "description": "GTD like a pro with this simple work day calendar app.",
         "link" : "https://trunten.github.io/ubbc-work-day-scheduler/",
         "gh": "https://github.com/trunten/ubbc-work-day-scheduler",
-        "image": "/images/calendar.jpg",
+        "image": "calendar.jpg",
+        "screenshot": "scheduler.png",
         "languages": "html / bootstrap / jquery",
         "tags" : ["html", "javascript", "css", "bootstrap", "api", "js", "jquery", "app", "weather"]
     },
@@ -59,7 +65,8 @@
         "description": "A simple word guessing game. Type letters on your keyboard to try and solve the puzzle.",
         "link" : "https://trunten.github.io/word-guessing-game/",
         "gh": "https://github.com/trunten/word-guessing-game",
-        "image": "/images/letters.jpg",
+        "image": "letters.jpg",
+        "screenshot": "word.png",
         "languages": "html / css / javascript",
         "tags" : ["html", "javascript", "css", "game", "emoji"]
     },
@@ -68,7 +75,8 @@
         "description": "CSS Snippets for Flexbox, Grid and more. All at your fingertips in a click.",
         "link" : "https://trunten.github.io/css-cheatsheet/",
         "gh": "https://github.com/trunten/css-cheatsheet",
-        "image": "/images/css.jpg",
+        "image": "css.jpg",
+        "screenshot": "css.png",
         "languages": "html / css / javascript",
         "tags" : ["html", "css", "grid"]
     },
@@ -77,7 +85,8 @@
         "description": "Demo application displaying my skills in responsive design with CSS grid and updating content from external data",
         "link" : "https://trunten.github.io/fm-time-tracker/",
         "gh": "https://github.com/trunten/fm-time-tracker",
-        "image": "/images/time.jpg",
+        "image": "time.jpg",
+        "screenshot": "time.png",
         "languages": "html / css / javascript",
         "tags" : ["html", "javascript", "css", "js", "grid"]
     },
@@ -86,7 +95,8 @@
         "description": "CSS Design challenge. A simple landing page for a fictitious mobile app showcasing repsonive design and js DOM manipulation.",
         "link" : "https://trunten.github.io/fm-chat-app/",
         "gh": "https://github.com/trunten/fm-chat-app",
-        "image": "/images/chat.png",
+        "image": "chat.png",
+        "screenshot": "chat.png",
         "languages": "html / css / javascript",
         "tags" : ["html", "javascript", "css", "js"]
     },
@@ -95,7 +105,8 @@
       "description": "A command line utility that produces a professional, high quality README file from the answers to a series of user input prompts.",
       "link" : "https://trunten.github.io/ubbc-readme-generator/",
       "gh": "https://github.com/trunten/ubbc-readme-generator",
-      "image": "/images/readme.jpg",
+      "image": "readme.jpg",
+      "screenshot": "readme.png",
       "languages": "node / npm / javascript",
       "tags" : ["javascript", "js", "node", "npm", "cmd", "command line", "console"]
   },
@@ -103,7 +114,8 @@
         "title": "Future Projects",
         "description": "I'm hard at work building my next project. Keep checking back to see my portfolio grow.",
         "link" : "https://trunten.github.io/python-gui-test/",
-        "image": "/images/future.jpg",
+        "image": "future.jpg",
+        "screenshot": "future.jpg",
         "languages": "watch this space",
         "tags" : ["future"]
     }
