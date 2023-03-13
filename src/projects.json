@@ -61,7 +61,7 @@
         "gh": "https://github.com/trunten/word-guessing-game",
         "image": "/images/letters.jpg",
         "languages": "html / css / javascript",
-        "tags" : ["html", "javascript", "css", "game"]
+        "tags" : ["html", "javascript", "css", "game", "emoji"]
     },
     {
         "title": "CSS Cheatsheet",
