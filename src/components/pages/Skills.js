@@ -42,9 +42,9 @@ export default function Skills() {
           <div className="col-md-6 mx-auto">
             <h2 className="display-4 text-center my-4">Tech Stack</h2>
             <div className="d-flex flex-wrap mx-auto justify-content-center mb-2" style={{maxWidth:"570px"}}>
-              {stack.map(icon =>  {
+              {stack.map((icon, index) =>  {
                 return (
-                  <div className="stack-icon my-3 mx-2">
+                  <div key={index} className="stack-icon my-3 mx-2">
                     <img src={icon.icon} alt={icon.name} />
                     <p className="text-center m-0 p-0" style={{fontSize:"14px"}}>{icon.name}</p>
                   </div>

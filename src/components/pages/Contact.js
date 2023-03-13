@@ -8,7 +8,7 @@ export default function Contact() {
       <h2 className="display-4 my-4">Contact</h2>
       <div className="row">
         <div className="col-lg-6">
-          <div className="mt-3 mb-5 mx-auto text-justify" style={{maxWidth:"560px", lineHeight:"1.7"}}>
+          <div className="mt-3 mb-4 mx-auto text-justify" style={{maxWidth:"560px", lineHeight:"1.7"}}>
             <p className="mb-2">Want to get in touch to talk about a project I could be of help with?</p>
             <p className="mb-1">You can contact me via email, phone or through any of my social profiles below.</p>
             <p>Or just fill out the form to send me a message in a snap. I look forward to hearing from you 😀</p>
