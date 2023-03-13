@@ -5,14 +5,14 @@ import allProjects from "../../projects.json";
 export default function Projects() {
   const [projects, setProjects] = useState(allProjects);
 
-  function filterProjects(e) {
-    console.log(typeof(e) );
-    if (typeof(e) === "string") { document.querySelector("input").value = ""; } else { e.preventDefault() }
-    if ((e.target && e.target.value.trim() === "") || e === "") {
+  function filterProjects(e, str) {
+    e.preventDefault();
+    if (str) { document.querySelector("input").value = ""; } else { str = e.target.value.trim(); }
+    if (str === "") {
       setProjects(allProjects);
     } else {
       const filtered = allProjects.filter(project => {
-        const re = new RegExp((e.target && e.target.value) || e, "ig");
+        const re = new RegExp(str, "ig");
         return project.title.match(re) || project.tags.join(" ").match(re);
       })
       setProjects(filtered);
@@ -26,12 +26,12 @@ export default function Projects() {
         <div className="form-row">
           <div className="mx-auto" style={{width:"88%", maxWidth:"500px"}}>
             <input type="text" className="form-control" placeholder="Filter by name or technology" onChange={filterProjects} />
-            <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => filterProjects("game")}>#game</button>
-            <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => filterProjects("node")}>#node</button>
-            <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => filterProjects("jquery")}>#jquery</button>
-            <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => filterProjects("api")}>#api</button>
-            <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => filterProjects("bootstrap")}>#bootstrap</button>
-            <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => {filterProjects("");}}>#all</button>
+            <a href="/" className="my-2 mx-1 btn btn-outline-dark" onClick={(e) => filterProjects(e, "game")}>#game</a>
+            <a href="/" className="my-2 mx-1 btn btn-outline-dark" onClick={(e) => filterProjects(e, "node")}>#node</a>
+            <a href="/" className="my-2 mx-1 btn btn-outline-dark" onClick={(e) => filterProjects(e, "jquery")}>#jquery</a>
+            <a href="/" className="my-2 mx-1 btn btn-outline-dark" onClick={(e) => filterProjects(e, "api")}>#api</a>
+            <a href="/" className="my-2 mx-1 btn btn-outline-dark" onClick={(e) => filterProjects(e, "bootstrap")}>#bootstrap</a>
+            <a href="/" className="my-2 mx-1 btn btn-outline-dark" onClick={(e) => {filterProjects(e, "");}}>#all</a>
           </div>
           
         </div>
