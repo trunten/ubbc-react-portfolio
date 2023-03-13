@@ -41,9 +41,9 @@
 - Download my cv using the links provided on the about and contact pages.
 - Preview of the finished site:
 
-<a href="https://trunten.github.io/ubbc-react-portfolio/"><img src="./src/images/about.png" alt="about page" width=600></a>
+<a href="https://trunten.github.io/ubbc-react-portfolio/"><img src="./src/images/about.png" alt="about page" width=600></a><br>
 <a href="https://trunten.github.io/ubbc-react-portfolio/#/projects"><img src="./src/images/projects.png" alt="projects page" width=600></a><br>
-<a href="https://trunten.github.io/ubbc-react-portfolio/#/skills"><img src="./src/images/skills.png" alt="skills page" width=600></a>
+<a href="https://trunten.github.io/ubbc-react-portfolio/#/skills"><img src="./src/images/skills.png" alt="skills page" width=600></a><br>
 <a href="https://trunten.github.io/ubbc-react-portfolio/#/contact"><img src="./src/images/contact.png" alt="contact page" width=600></a>
 
 ## Credits
