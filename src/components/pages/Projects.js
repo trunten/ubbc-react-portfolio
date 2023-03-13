@@ -6,6 +6,8 @@ export default function Projects() {
   const [projects, setProjects] = useState(allProjects);
 
   function filterProjects(e) {
+    console.log(typeof(e) );
+    if (typeof(e) === "string") document.querySelector("input").value = "";
     if ((e.target && e.target.value.trim() === "") || e === "") {
       setProjects(allProjects);
     } else {
@@ -26,10 +28,10 @@ export default function Projects() {
             <input type="text" className="form-control" placeholder="Filter by name or technology" onChange={filterProjects} />
             <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => filterProjects("game")}>#game</button>
             <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => filterProjects("node")}>#node</button>
-            <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => filterProjects("api")}>#api</button>
+            <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => filterProjects("jquery")}>#jquery</button>
             <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => filterProjects("api")}>#api</button>
             <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => filterProjects("bootstrap")}>#bootstrap</button>
-            <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => {filterProjects(""); document.querySelector("input").value = ""}}>#all</button>
+            <button className="my-2 mx-1 btn btn-outline-dark" onClick={() => {filterProjects("");}}>#all</button>
           </div>
           
         </div>
