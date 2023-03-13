@@ -26,6 +26,7 @@ export default function Contact() {
               <span className="mx-3">|</span>
               Mob: <a href="tel:+447123456789">07123 456 789</a>
             </p>
+            <a href="https://github.com/trunten/trunten/raw/main/files/CV.pdf" className='btn btn-outline-dark px-3 py-2 mt-2 mb-4 font-weight-bold' style={{borderWidth:"2px", fontSize:"14px"}}><i className="fa fa-download mr-2" aria-hidden="true"></i>Check out my resume</a>
           </div>
         </div>
         <div className="col-lg-6 mb-4">
