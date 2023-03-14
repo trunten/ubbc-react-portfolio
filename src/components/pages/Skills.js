@@ -13,16 +13,16 @@ import npm_i from "../../images/npm.png";
 export default function Skills() {
 
   const stack = [
-    { name: "JavaScript", icon: js_i },
-    { name: "Node.js", icon: node_i },
-    { name: "npm", icon: npm_i },
-    { name: "React", icon: react_i },
-    { name: "jQuery", icon: jquery_i },
-    { name: "HTML", icon: html_i },
-    { name: "CSS", icon: css_i },
-    { name: "Bootstrap", icon: bootstrap_i },
-    { name: "Git", icon: git_i },
-    // { name: "Java", icon: java_i },
+    { name: "JavaScript", icon: js_i, url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+    { name: "Node.js", icon: node_i, url: "https://nodejs.org/" },
+    { name: "npm", icon: npm_i, url: "https://www.npmjs.com" },
+    { name: "React", icon: react_i, url: "https://reactjs.org" },
+    { name: "jQuery", icon: jquery_i, url: "https://jquery.com" },
+    { name: "HTML", icon: html_i, url: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+    { name: "CSS", icon: css_i, url: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+    { name: "Bootstrap", icon: bootstrap_i, url: "https://getbootstrap.com" },
+    { name: "Git", icon: git_i, url: "https://git-scm.com" },
+    // { name: "Java", icon: java_i, url: "https://www.java.com/en/download/help/whatis_java.html" },
   ];
 
   return (
@@ -42,11 +42,11 @@ export default function Skills() {
           <div className="col-md-6 mx-auto">
             <h2 className="display-4 text-center my-4">Tech Stack</h2>
             <div className="d-flex flex-wrap mx-auto justify-content-center mb-2" style={{maxWidth:"570px"}}>
-              {stack.map((icon, index) =>  {
+              {stack.map((badge, index) =>  {
                 return (
-                  <div key={index} className="stack-icon my-3 mx-2">
-                    <img src={icon.icon} alt={icon.name} />
-                    <p className="text-center m-0 p-0" style={{fontSize:"14px"}}>{icon.name}</p>
+                  <div key={index} className="stack-icon my-3 mx-2" onClick={()=>window.open(badge.url, "_blank")} >
+                    <img src={badge.icon} alt={badge.name} />
+                    <p className="text-center m-0 p-0" style={{fontSize: "14px", color: "black", textDecoration: "none"}}>{badge.name}</p>
                   </div>
                 );
               })}
