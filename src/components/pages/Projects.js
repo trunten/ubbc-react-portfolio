@@ -3,7 +3,7 @@ import allProjects from "../../projects.json";
 import { useState } from "react";
 import { useParams } from 'react-router';
 
-export default function Projects(props) {
+export default function Projects() {
   const { id } = useParams();
   const [imageType, setImageType] = useState("screenshot");
   const [projects, setProjects] = useState(allProjects);

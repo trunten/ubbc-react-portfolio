@@ -19,6 +19,7 @@
 - Buttons to the deployed application and github repo appear, overlayed on the project card's image, when the user hovers over a project card.
 - When the buttons in the project cards are clicked the user is taken to that deployed application in a new browser tab/window (entire card is also clickable).
   - The projects page is also filterable through a search field and the top of the gallery
+  - Each project has a permalink, on hover, in the top right of the project card. This links directly to that project for bookmarking/sharing: <img src="./src/images/perma.png" height=20 style="transform:translatey(5px)" />
 - The site is fully responsive and adapts to the user viewport, working equally well on desktop and mobile
 - The skills page contains progress bars displaying the proficiency percentage of various coding languages that have been utilised in my projects that animate in on page load. In addition to those there are also skillls badges for my entire dev stack.
 
@@ -35,8 +36,9 @@
 
 ## Usage
 - [Link to deployed site](https://trunten.github.io/ubbc-react-portfolio/)
-- Jump to each page by clicking the links in the navigation bar
-- Click on any of the buttons in the project cards (visbile on hover), or the project card itself to open up the deployed application/reop in a new window/tab
+- Jump to each page by clicking the links in the navigation bar.
+- Click on any of the buttons in the project cards (visbile on hover), or the project card itself to open up the deployed application/reop in a new window/tab.
+- Click the any project permalink ( <img src="./src/images/perma.png" height=20 style="transform:translatey(5px)" /> ) to view a dedicated project page.
 - Contact me through email, phone or my social media profiles using the links provided on the contact page. Alternatively send me a message using the built in form. 
 - Download my cv using the links provided on the about and contact pages.
 - Preview of the finished site:
