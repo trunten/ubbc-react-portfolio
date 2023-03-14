@@ -5,7 +5,6 @@ import { useParams } from 'react-router';
 
 export default function Project(props) {  
   const { id } = useParams();
-  console.log(id);
   const { pid, title, languages, description, image, screenshot, link, gh, hero } = props.project;
   const src = process.env.PUBLIC_URL + "/images/" + (props.type === "marketing" ? image : "screenshots/" + screenshot);
   // // Dynamic imports from src folder - works but needs more testing
