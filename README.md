@@ -10,18 +10,18 @@
 - The site demonstrates my skills as a front-end developer and highlights my strongest work linking to deployed web applications.
 - The site has been styled using [bootstrap](https://getbootstrap.com) with additional CSS styling overrides.
 - The site has 4 distinct pages, with a navigation bar at the top of the page (collapses at smaller screen sizes) linking to each section. These sections are as follows:
-  - About
-  - Projects
-  - Skills
-  - Contact
-- The about page contains a brief description about my life as a front-end devleoper and a donwload link to my CV
-- The projects section contains titled images of my projects/applications with the first application's image displaying larger in size than the others.
-- Buttons to the deployed application and github repo appear, overlayed on the project card's image, when the user hovers over a project card.
-- When the buttons in the project cards are clicked the user is taken to that deployed application in a new browser tab/window (entire card is also clickable).
-  - The projects page is also filterable through a search field and the top of the gallery
-  - Each project has a permalink, on hover, in the top right of the project card. This links directly to that project for bookmarking/sharing: <img src="./src/images/perma.png" height=20 style="transform:translatey(5px)" />
+  - [About](https://trunten.github.io/ubbc-react-portfolio/)
+  - [Projects](https://trunten.github.io/ubbc-react-portfolio/#/projects)
+  - [Skills](https://trunten.github.io/ubbc-react-portfolio/#/skills)
+  - [Contact](https://trunten.github.io/ubbc-react-portfolio/#/contact)
+- The about page contains a brief description about my life as a front-end devleoper and a download link to my CV.
+- The projects section contains titled images of my projects/applications with the 'hero' application's image displaying larger in size than the others.
+  - Buttons to the deployed application and github repo appear, overlayed on the project card's image, when the user hovers over a project card.
+  - When the buttons in the project cards are clicked the user is taken to that deployed application in a new browser tab/window (entire card is also clickable).
+  - The projects page is also filterable through a search field at the top of the gallery
+  - Each project has a permalink, on hover, in the top right of the project card. This links directly to that project for bookmarking/sharing: <img src="./src/images/perma.png" height=17 />
 - The site is fully responsive and adapts to the user viewport, working equally well on desktop and mobile
-- The skills page contains progress bars displaying the proficiency percentage of various coding languages that have been utilised in my projects that animate in on page load. In addition to those there are also skillls badges for my entire dev stack.
+- The skills page contains progress bars displaying the proficiency percentage of various coding languages that have been utilised in my projects (that animate in on page load). In addition to those there are also skills badges for my entire dev stack.
 
 ## Table of contents
 - [Installation](#installation)
@@ -38,7 +38,7 @@
 - [Link to deployed site](https://trunten.github.io/ubbc-react-portfolio/)
 - Jump to each page by clicking the links in the navigation bar.
 - Click on any of the buttons in the project cards (visbile on hover), or the project card itself to open up the deployed application/reop in a new window/tab.
-- Click the any project permalink ( <img src="./src/images/perma.png" height=20 style="transform:translatey(5px)" /> ) to view a dedicated project page.
+- Click the project permalink ( <img src="./src/images/perma.png" height=17 /> ) to view a dedicated project page.
 - Contact me through email, phone or my social media profiles using the links provided on the contact page. Alternatively send me a message using the built in form. 
 - Download my cv using the links provided on the about and contact pages.
 - Preview of the finished site:
