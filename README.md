@@ -19,8 +19,8 @@
 - Buttons to the deployed application and github repo appear, overlayed on the project card's image, when the user hovers over a project card.
 - When the buttons in the project cards are clicked the user is taken to that deployed application in a new browser tab/window (entire card is also clickable).
   - The projects page is also filterable through a search field and the top of the gallery
-- The site is fully responsive and adapt to the user viewport, working equally well on desktop and mobile
-- The skills page contains progress bars displaying the percentage of various coding languages that have been utilised in my projects that animate in on page load. In addition to those there are also skillls badges for my entire dev stack.
+- The site is fully responsive and adapts to the user viewport, working equally well on desktop and mobile
+- The skills page contains progress bars displaying the proficiency percentage of various coding languages that have been utilised in my projects that animate in on page load. In addition to those there are also skillls badges for my entire dev stack.
 
 ## Table of contents
 - [Installation](#installation)
@@ -36,8 +36,8 @@
 ## Usage
 - [Link to deployed site](https://trunten.github.io/ubbc-react-portfolio/)
 - Jump to each page by clicking the links in the navigation bar
-- Click on any of the buttons in the project cards (visbile on hover), or the project card itself to open up the deployed application in a new window/tab
-- Contact me through email, phone or my social media profiles using the links provided on the contact page. Alternative send me a message using the built in form. 
+- Click on any of the buttons in the project cards (visbile on hover), or the project card itself to open up the deployed application/reop in a new window/tab
+- Contact me through email, phone or my social media profiles using the links provided on the contact page. Alternatively send me a message using the built in form. 
 - Download my cv using the links provided on the about and contact pages.
 - Preview of the finished site:
 
@@ -48,7 +48,6 @@
 
 ## Credits
 - Project images & jumbotron background: https://unsplash.com
-- Rock Paper Scissors Image: Human Vectors by Vecteezy - https://www.vecteezy.com/free-vector/human
 - Skill stack badges: flaticon.com
 
 ## Contributing
