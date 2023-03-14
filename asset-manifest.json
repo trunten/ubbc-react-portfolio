@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ubbc-react-portfolio/static/css/main.6838ae47.css",
+    "main.css": "/ubbc-react-portfolio/static/css/main.3b0d4647.css",
     "main.js": "/ubbc-react-portfolio/static/js/main.2fb1a7e5.js",
     "static/media/laptop.jpg": "/ubbc-react-portfolio/static/media/laptop.38c678dd0c4a707c79b8.jpg",
     "static/media/profile.png": "/ubbc-react-portfolio/static/media/profile.6478575dd39a7021e5d0.png",
@@ -10,11 +10,11 @@
     "static/media/bootstrap.png": "/ubbc-react-portfolio/static/media/bootstrap.268c4375260420e8d982.png",
     "static/media/js.png": "/ubbc-react-portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/ubbc-react-portfolio/index.html",
-    "main.6838ae47.css.map": "/ubbc-react-portfolio/static/css/main.6838ae47.css.map",
+    "main.3b0d4647.css.map": "/ubbc-react-portfolio/static/css/main.3b0d4647.css.map",
     "main.2fb1a7e5.js.map": "/ubbc-react-portfolio/static/js/main.2fb1a7e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.6838ae47.css",
+    "static/css/main.3b0d4647.css",
     "static/js/main.2fb1a7e5.js"
   ]
 }
