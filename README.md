@@ -31,7 +31,7 @@
 - [License](#license)
 
 ## Installation
-- Installation is not required, but should you wish to work on the code ase on your own machine run <code>npm i</code> in your terminal to install project dependancies
+- Installation is not required, but should you wish to work on the code base on your own machine run <code>npm i</code> in your terminal to install project dependancies
 
 ## Usage
 - [Link to deployed site](https://trunten.github.io/ubbc-react-portfolio/)
