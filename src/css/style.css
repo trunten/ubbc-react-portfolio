@@ -124,6 +124,13 @@ html {
   transition: all 0.4s ease-in-out;
 }
 
+@media screen and (max-width: 700px) {
+  #projects .card img { 
+    /* max-height: 300px; */
+    max-height: 80vw;
+  }
+}
+
 /* Image toggle */
 .toggle {
   display: flex;
