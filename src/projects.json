@@ -1,14 +1,14 @@
 [
   {
     "pid": "1",
-    "title": "City Crime Data",
-    "description": "A single page web app that allows you to search for local crime data statistics for any location in England.",
-    "link" : "https://trunten.github.io/ubbc-crime-data/",
-    "gh": "https://github.com/trunten/ubbc-crime-data",
-    "image": "crime-data.jpg",
-    "screenshot": "crime.png",
-    "languages": "html / bootstrap / javascript",
-    "tags" : ["html", "javascript", "css", "bootstrap", "api", "js", "jquery"],
+    "title": "ChatterBox Chat App",
+    "description": "A single page web app that allows users to chat in real time to anyone in the world. A complete full-stack application built with react and Google Firebase.",
+    "link" : "https://chatterbox-web.netlify.app/",
+    "gh": "https://github.com/trunten/ubbc-chatterbox",
+    "image": "chatterbox.png",
+    "screenshot": "chatterbox.png",
+    "languages": "html / react / javascript",
+    "tags" : ["html", "javascript", "css", "firebase", "api", "js", "react", "full-stack", "full stack", "realtime"],
     "hero": "true"
   },
   {
@@ -46,6 +46,17 @@
   },
   {
     "pid": "5",
+    "title": "City Crime Data",
+    "description": "A single page web app that allows you to search for local crime data statistics for any location in England.",
+    "link" : "https://trunten.github.io/ubbc-crime-data/",
+    "gh": "https://github.com/trunten/ubbc-crime-data",
+    "image": "crime-data.jpg",
+    "screenshot": "crime.png",
+    "languages": "html / bootstrap / javascript",
+    "tags" : ["html", "javascript", "css", "bootstrap", "api", "js", "jquery"]
+  },
+  {
+    "pid": "6",
     "title": "Pong!",
     "description": "Retro pong game. Relive the 70's with this modern classic.",
     "link" : "https://trunten.github.io/js-canvas-pong/",
@@ -56,7 +67,7 @@
     "tags" : ["html", "javascript", "js", "game"]
   },
   {
-    "pid": "6",
+    "pid": "7",
     "title": "Work Day Scheduler",
     "description": "GTD like a pro with this simple work day calendar app.",
     "link" : "https://trunten.github.io/ubbc-work-day-scheduler/",
@@ -67,7 +78,7 @@
     "tags" : ["html", "javascript", "css", "bootstrap", "api", "js", "jquery", "app", "weather"]
   },
   {
-    "pid": "7",
+    "pid": "8",
     "title": "Word Guessing Game",
     "description": "A simple word guessing game. Type letters on your keyboard to try and solve the puzzle.",
     "link" : "https://trunten.github.io/word-guessing-game/",
@@ -78,7 +89,7 @@
     "tags" : ["html", "javascript", "css", "game", "emoji"]
   },
   {
-    "pid": "8",
+    "pid": "9",
     "title": "CSS Cheatsheet",
     "description": "CSS Snippets for Flexbox, Grid and more. All at your fingertips in a click.",
     "link" : "https://trunten.github.io/css-cheatsheet/",
@@ -89,7 +100,7 @@
     "tags" : ["html", "css", "grid"]
   },
   {
-    "pid": "9",
+    "pid": "10",
     "title": "Time Tracker",
     "description": "Demo application displaying my skills in responsive design with CSS grid and updating content from external data",
     "link" : "https://trunten.github.io/fm-time-tracker/",
@@ -100,7 +111,7 @@
     "tags" : ["html", "javascript", "css", "js", "grid"]
   },
   {
-    "pid": "10",
+    "pid": "11",
     "title": "Chat App Website",
     "description": "CSS Design challenge. A simple landing page for a fictitious mobile app showcasing repsonive design and js DOM manipulation.",
     "link" : "https://trunten.github.io/fm-chat-app/",
@@ -111,7 +122,7 @@
     "tags" : ["html", "javascript", "css", "js"]
   },
   {
-    "pid": "11",
+    "pid": "12",
     "title": "Github Readme Generator",
     "description": "A command line utility that produces a professional, high quality README file from the answers to a series of user input prompts.",
     "link" : "https://trunten.github.io/ubbc-readme-generator/",
@@ -122,7 +133,7 @@
     "tags" : ["javascript", "js", "node", "npm", "cmd", "command line", "console"]
   },
   {
-    "pid": "12",
+    "pid": "13",
     "title": "Future Projects",
     "description": "I'm hard at work building my next project. Keep checking back to see my portfolio grow.",
     "link" : "https://trunten.github.io/python-gui-test/",
