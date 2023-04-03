@@ -21,8 +21,8 @@ export default function Project(props) {
   }
   return (
     <div style={id ? {maxWidth: "700px"} :{}} className={"mb-4 " + (id ? "col mx-auto" : (hero ? "col-sm-12 col-md-8 col-lg-6" : "col-sm-6 col-md-4 col-lg-3"))} onClick={cardClick}>
-      <div className="card h-100" >
-        <div className="img-wrapper">
+      <div className="card h-100" style={{animationDelay: `calc(${props.idx} * var(--delay))`}}>
+        <div className="img-wrapper" style={{animationDelay: `calc(${props.idx} * var(--delay))`}}>
           <div className="buttons">
             {link && <a href={link} target="_blank" className={`btn btn-outline-light rounded-pill ${gh ? "mb-3" : ""}`} rel="noreferrer">Deployed Site</a>}
             {gh && <a href={gh} target="_blank" className={`btn btn-outline-light rounded-pill ${link ? "mt-3" : ""}`} rel="noreferrer">GitHub Repo</a>}

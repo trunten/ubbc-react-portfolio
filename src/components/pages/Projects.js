@@ -74,7 +74,7 @@ export default function Projects() {
           <label htmlFor="marketing">Marketing</label>
         </div>
         <div className="w-100"></div>
-        {projects.map((project, index) => (!id || id === project.pid) && <Project key={index} type={imageType} project={project} />)}
+        {projects.map((project, index) => (!id || id === project.pid) && <Project key={index} idx={index} type={imageType} project={project} />)}
       </div>
     </div>
   );
