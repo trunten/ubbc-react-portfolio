@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ubbc-react-portfolio/static/css/main.c606d034.css",
-    "main.js": "/ubbc-react-portfolio/static/js/main.b6d3d828.js",
+    "main.js": "/ubbc-react-portfolio/static/js/main.f092c0f3.js",
     "static/media/laptop.jpg": "/ubbc-react-portfolio/static/media/laptop.38c678dd0c4a707c79b8.jpg",
     "static/media/profile.png": "/ubbc-react-portfolio/static/media/profile.6478575dd39a7021e5d0.png",
     "static/media/react.png": "/ubbc-react-portfolio/static/media/react.588ce830e2ea8ca431cd.png",
@@ -11,10 +11,10 @@
     "static/media/js.png": "/ubbc-react-portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/ubbc-react-portfolio/index.html",
     "main.c606d034.css.map": "/ubbc-react-portfolio/static/css/main.c606d034.css.map",
-    "main.b6d3d828.js.map": "/ubbc-react-portfolio/static/js/main.b6d3d828.js.map"
+    "main.f092c0f3.js.map": "/ubbc-react-portfolio/static/js/main.f092c0f3.js.map"
   },
   "entrypoints": [
     "static/css/main.c606d034.css",
-    "static/js/main.b6d3d828.js"
+    "static/js/main.f092c0f3.js"
   ]
 }
