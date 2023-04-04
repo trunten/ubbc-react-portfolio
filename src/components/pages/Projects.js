@@ -7,6 +7,7 @@ export default function Projects() {
   const { id } = useParams();
   const [imageType, setImageType] = useState("screenshot");
   const [projects, setProjects] = useState(allProjects);
+  const [animate, setAnimate] = useState("animate");
 
   function filterProjects(e, str) {
     e.preventDefault();
@@ -20,6 +21,8 @@ export default function Projects() {
       })
       setProjects(filtered);
     }
+    setAnimate("")
+    setTimeout(()=>setAnimate("animate"),0);
   }
 
   function imageToggle(e) {
@@ -74,7 +77,7 @@ export default function Projects() {
           <label htmlFor="marketing">Marketing</label>
         </div>
         <div className="w-100"></div>
-        {projects.map((project, index) => (!id || id === project.pid) && <Project key={index} idx={index} type={imageType} project={project} />)}
+        {projects.map((project, index) => (!id || id === project.pid) && <Project key={index} animate={animate} idx={index} type={imageType} project={project} />)}
       </div>
     </div>
   );
