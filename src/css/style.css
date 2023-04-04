@@ -138,7 +138,7 @@ html {
   }
 }
 
-#projects .card {
+#projects .card.animate {
   --delay: 100ms;
   animation: animate-in 700ms ease-out;
   animation-fill-mode: backwards;
